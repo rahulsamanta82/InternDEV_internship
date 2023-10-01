@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio final</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:ital,wght@0,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/dc2e22aeb9024b30a058c690a7f9f7ba?family=Agustina" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="port.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mr Rahul Samanta</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Connect</a></li>
+                    <li>
+                        <div class="toggle_btn">
+                            <input type="checkbox" id="checkbox">
+                            <label for="checkbox" class="toggle-label" style="border: .5px solid black;">
+                                <span class="toggle_ball" style="color: black;">
+                                </span>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+    </header>
+    </div>
+
+    <div id="container">
+        <div class="content">
+            <div id="toggleDayOrNight"></div>
+        </div>
+    </div>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi &#x263A; <br> My name is <span class="purple">Rahul</span><br>
+
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="front.png">
+            </div>
+        </section>
+        <hr>
+        <!--ABOUT-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="self.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="para"><b>Myself Rahul Samanta</b> from West Bengal, Kolkata, India.
+                            With a dream of pursuing my career in BCA and
+                            to explore the infinite potential of BCA came
+                            to Chitkara University.
+                            I understand the importance of being interactive and enjoy communicating with others for the
+                            benefit of eachother.<br />
+
+                            I am committed to learning and self-development so that I can consistently achieve better
+                            results and always keep my mind open to get inspiration from whoever is willing to teach or
+                            give advises and I am always ready to help whoever wanting the help.<br />
+                            So, I enjoy the collaborative atmosphere where everyone is helping eachother to grow which
+                            bring great benefits to everyone.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('exprience')">Exprience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contains active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development :-</span><br>HTML5, CSS3, JQuery, JavaScript</li>
+                                <li><span>Database :-</span><br>SQL and SQL Server</li>
+                                <li><span>Programing Language :-</span><br>C And C++</li>
+                                <!-- <li><span>C++ Language :-</span><br>Like Game.</li> -->
+
+                            </ul>
+                        </div>
+                        <div class="tab-contains" id="exprience">
+                            <ul>
+                                <li><span>Jul 2023 to Current</span><br>Music Clone</li>
+                                <li><span>Jan 2023 to Jun 2023</span><br>Calculator</li>
+                                <li><span>Sep 2022 to Dec 2022</span><br>Chitkara University Web clone</li>
+                                <!-- <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digitail Ltd.</li> -->
+                                <!-- <li><span>2016-2017</span><br>Internship at ekart eCommerce.</li> -->
+                            </ul>
+                        </div>
+                        <div class="tab-contains" id="education">
+                            <ul>
+                                <li><span>2022 - 2025</span><br>BCA from Chitkara University</li>
+                                <li><span>2021 - 2022</span><br>XII from Brahman Basan High School</li>
+                                <li><span>2019 - 2020</span><br>X from Brahman Basan High School</li>
+                                <!-- <li><span>2014</span><br>BBA from ISM Bangalore</li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--ABOUT-->
+
+
+        <section class="secondsection">
+            <h1 class="p">Projects</h1>
+            <div class="box">
+                <div class="vertical">
+                    <a href="https://www.linkedin.com/posts/rahul-samanta-116572275_task2-webdevelopment-internship-activity-7112172030547935232-YRv-?utm_source=share&utm_medium=member_desktop4"
+                        target="_blank"><img class="image-top" src="vert.png" alt=""></a>
+
+                    <div class="verticaltitle">
+                        <a href="https://www.linkedin.com/posts/rahul-samanta-116572275_task2-webdevelopment-internship-activity-7112172030547935232-YRv-?utm_source=share&utm_medium=member_desktop"
+                            target="_blank"> Temperature-converter</a>
+                    </div>
+                    <!-- <div class="vertical-desc">Lorem ipsum dolor sit amet.</div> -->
+                </div>
+
+                <div class="vertical">
+                    <a href="https://www.linkedin.com/posts/rahul-samanta-116572275_task3-bharatintern-internship-activity-7111795711612006400-se76?utm_source=share&utm_medium=member_desktop"
+                        target="_blank"><img class="image-top" src="vert.png" alt=""></a>
+                    <div class="verticaltitle">
+                        <a href="https://www.linkedin.com/posts/rahul-samanta-116572275_task3-bharatintern-internship-activity-7111795711612006400-se76?utm_source=share&utm_medium=member_desktop"
+                            target="_blank">Netflix Homepage</a>
+                    </div>
+                    <!-- <div class="vertical-desc">Lorem ipsum dolor sit amet.</div> -->
+                </div>
+
+                <div class="vertical">
+                    <a href="https://www.linkedin.com/posts/rahul-samanta-116572275_task1-codshoft-virtualinternship-activity-7111460441737850880-r50I?utm_source=share&utm_medium=member_desktop"
+                        target="_blank"><img class="image-top" src="vert.png" alt=""></a>
+                    <div class="verticaltitle">
+                        <a href="https://www.linkedin.com/posts/rahul-samanta-116572275_task1-codshoft-virtualinternship-activity-7111460441737850880-r50I?utm_source=share&utm_medium=member_desktop"
+                            target="_blank">
+                            Portfolio</a>
+                    </div>
+                    <!-- <div class="vertical-desc">Lorem ipsum dolor sit amet.</div> -->
+                </div>
+
+                <div class="vertical">
+                    <a href="https://www.linkedin.com/posts/rahul-samanta-116572275_task2-codshoft-virtualinternship-activity-7111452604886323202-3cvi?utm_source=share&utm_medium=member_desktop"
+                        target="_blank"><img class="image-top" src="vert.png" alt=""></a>
+                    <div class="verticaltitle">
+                        <a href="https://www.linkedin.com/posts/rahul-samanta-116572275_task2-codshoft-virtualinternship-activity-7111452604886323202-3cvi?utm_source=share&utm_medium=member_desktop2"
+                            target="_blank">Landing page</a>
+                    </div>
+                    <div class="vertical-desc">
+                        <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>rs4655742@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>825XXXX143</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-regular fa-copyright"></i>Made with <i class="fa-solid fa-heart" id="heart"></i>💜 @Rahul.</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer &', 'C++ Programar'],
+            typeSpeed: 50,
+        });
+        const toggle_btn = document.querySelector('#checkbox')
+        console.log(toggle_btn)
+        toggle_btn.addEventListener('change', () => {
+            if (toggle_btn.checked) {
+                console.log("toggle_btn checked")
+                document.body.classList.add('dark-mode')
+            }
+            else {
+                console.log("toggle_btn un_checked")
+                document.body.classList.remove('dark-mode')
+            }
+        })
+    </script>
+    <!-- about -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("#element", {
+            strings: [
+                "Web Devloper",
+                "C $ C++ Programar",
+                "DBA",
+                "Video Editor",
+                "Web Designer",
+            ],
+            typeSpeed: 70,
+        });
+    </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contains");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <!-- about -->
+
+
+    </div>
+    </div>
+
+</body>
+
+</html>
